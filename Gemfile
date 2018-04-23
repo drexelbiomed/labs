@@ -16,7 +16,7 @@ gem "haml", "~> 5.0", ">= 5.0.4"
 gem "nokogiri", "~> 1.8"
 
 # https://github.com/AndrewKvalheim/middleman-pry
-gem "middleman-pry", "~> 1.0"
+gem "middleman-pry", "~> 1.0.2"
 
 # https://github.com/Aupajo/middleman-search_engine_sitemap
 # gem "middleman-search_engine_sitemap", "~> 1.4"
