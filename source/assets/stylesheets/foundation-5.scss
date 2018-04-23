@@ -1,0 +1,20 @@
+// ==================
+// Vendor
+// ==================
+
+@import "../vendor/foundation/scss/foundation/settings";
+@import "../vendor/foundation/scss/foundation.scss";
+@import "../vendor/bxslider-4/jquery.bxslider.scss";
+
+// ==================
+// Stylesheets
+// ==================
+
+@import "fonts";
+@import "variables";
+@import "main";
+@import "nav";
+@import "footer";
+@import "home";
+@import "slideshow";
+@import "ionicons-1.5.2.min"

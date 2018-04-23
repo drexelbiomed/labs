@@ -1,0 +1,31 @@
+
+
+!!!
+%html{ lang: "en" }
+  %head
+    = partial "partials/head_contents"
+  %body{ class: page_classes }
+    = partial "partials/bg-image"
+    .height
+      .container
+        .row
+          .twelve.large-12.columns
+            = partial "partials/logo"
+        .row.wrap-nav
+          .twelve.large-12.columns
+            = partial "partials/nav/topbar"
+        .row.wrap
+          .row
+            .twelve.large-12.columns#breadcrumb
+              = partial "partials/nav/breadcrumbs"
+          .row
+            .six.push-three.medium-6.medium-push-3.columns.main-content
+              = yield
+            .three.push-three.medium-3.medium-push-3.columns.sidebar-right
+              = partial "partials/sidebar/right"
+            .three.pull-nine.medium-3.medium-pull-9.columns.sidebar-left
+              = partial "partials/nav/sidebar"
+      %footer.footer
+        = partial "partials/footer"
+
+    = partial "partials/js"

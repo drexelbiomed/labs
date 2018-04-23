@@ -1,0 +1,8 @@
+language: "en-us"
+name: "Site Name"
+url: "https://biomed.drexel.edu"
+human_url: "biomed.drexel.edu"
+title: "School of Biomed"
+description: "Research Laboratories for Drexel University School of Biomed"
+author: "David Myers"
+facebook_og_image_url: "http://drexel.edu/~/media/Images/biomed/Biomed_TwoLine_WHITE_Gold.ashx"
